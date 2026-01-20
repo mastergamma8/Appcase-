@@ -1,0 +1,12 @@
+"name": "telegram-case-backend",
+  "version": "1.0.0",
+  "description": "Backend for Telegram Case Opening Mini App",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:seed": "tsx prisma/seed.ts"
+  }
